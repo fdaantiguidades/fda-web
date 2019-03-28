@@ -6,8 +6,10 @@
 
  /* GLOBALS 
  ------------ */
+
 body {
   font-family: 'Rubik', sans-serif;
+
   position: relative;
 }
 
@@ -55,6 +57,7 @@ p {
   font-weight: 550;
   
 }
+
 .box-icon {
   box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.14);
   padding: 10px;
@@ -63,8 +66,6 @@ p {
   margin-bottom: 1.5rem;
   background-color: #FFF;
 }
-
-
 
 hr.star-light,
 hr.star-dark {
@@ -495,7 +496,6 @@ a:focus, a:hover, a:active {
 .btn-outline-light:hover {
   color: #000000;
 }
-
 
 .btn-primary {
   border-radius: 3px;
