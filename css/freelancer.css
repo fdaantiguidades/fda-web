@@ -211,6 +211,11 @@ section {
       max-width: 90%;
       text-align: center;
   }
+  .main-header__title h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
 }
 
 .nav-menu {
