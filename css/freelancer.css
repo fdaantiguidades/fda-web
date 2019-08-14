@@ -24,9 +24,11 @@ header{
 }
 
 .tagline {
+  height: 300px;
   font-size: 23px;
   font-weight: 300;
   color: #ffffff;
+  visibility: hidden;
 }
 
 
@@ -176,7 +178,7 @@ section {
 }
  .main-header {
   padding: 15% 0;
-  background-image: url(../img/bg-header.jpg);
+  background-image: url("../img/logo-capa.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
@@ -205,7 +207,7 @@ section {
 @media (max-width: 768px) {
   .main-header {
       height: 100vh;
-      background-image: url(../img/bg-header.jpg);
+      background-image: url("../img/logo-capa.jpg");
       background-position: center center;
       background-size: cover;
   }
@@ -233,9 +235,9 @@ section {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
   background-color: rgb(0, 0, 0);
-  background: -moz-linear-gradient(135deg, #fcda05 0%, #fcda05 100%);
-  background: -webkit-linear-gradient(135deg, #fcda05 0%, #fcda05 100%);
-  background: linear-gradient(135deg, #fcda05 0%, #fcda05 100%);
+  background: -moz-linear-gradient(#393939, #393939 0%, #393939 100%);
+  background: -webkit-linear-gradient(#393939, #393939 0%, #393939 100%);
+  background: linear-gradient(#393939, #393939 0%, #393939 100%);
   -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
